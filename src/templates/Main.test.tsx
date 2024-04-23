@@ -12,7 +12,7 @@ describe('Main template', () => {
       expect(menuItemList).toHaveLength(8);
     });
 
-    it('should have a link to support creativedesignsguru.com', () => {
+    it('should have a link to agency site', () => {
       render(<Main meta={null}>{null}</Main>);
 
       const copyrightSection = screen.getByText(/© Copyright/);
